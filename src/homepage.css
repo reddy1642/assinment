@@ -1,0 +1,19 @@
+
+.home-container {
+    text-align: center;
+    padding: 20px;
+    background-color: #e9ecef;
+    border-radius: 8px;
+    margin: 20px auto;
+    max-width: 400px;
+  }
+  
+  .home-container input {
+    width: 60%;
+    margin: 10px 0;
+  }
+  
+  .home-container button {
+    margin: 5px;
+  }
+  
