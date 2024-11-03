@@ -1,0 +1,44 @@
+.task-list {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+  }
+  
+  .task-list h1 {
+    text-align: center;
+    font-size: 2.5em;
+  }
+  
+  .task-list input[type="text"] {
+    padding: 10px;
+    font-size: 1em;
+    width: 70%;
+  }
+  
+  .task-list button {
+    padding: 10px 20px;
+    font-size: 1em;
+    margin-left: 10px;
+  }
+  
+  .task-list select {
+    margin: 10px 0;
+  }
+  
+  .task-list ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .task-list li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+  }
+  
+  .task-list li.completed {
+    text-decoration: line-through;
+    color: gray;
+  }
+  
